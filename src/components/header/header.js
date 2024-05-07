@@ -12,8 +12,7 @@ const Header = () => {
     return (
         <header onClick={logoClickHandler} className='App-header'>
             <div>
-                <h1 className="Name">A <b>Treasure Hunt</b> for The November Girl </h1>
-                <h1 className="text-light text-light-1">👧🏻</h1>
+                <h1 className="Name">Sahil Kumar Rao</h1>
             </div>
             
         </header>
