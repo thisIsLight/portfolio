@@ -12,13 +12,29 @@ const Contact = () => {
         <Layout >
             <Container className="ContactBodyContainer">
                 <Row className="ContactUnderlay">
-                    <Col xs={{ order: 'first' }}></Col>
+                    <Col></Col>
                 </Row>
                 <Row className="ContactUnderlay ContactLowerUnderlay">
-                    <Col xs={{ order: 'first' }}></Col>
+                    <Col></Col>
                 </Row>
                 <Row className="ContactCenterLayer">
-                    <Col xl={{ order: 'first' }}></Col>
+                    <Col xl={{ order: 'first' }}>
+                        <Container>
+                            <Row>
+                                <Col>Reach out to Me</Col>
+                            </Row>
+                            <Row>
+                                <Col>Phone</Col>
+                                <Col>(+91) 9980883236</Col>
+                            </Row>
+                            <Row>
+                                <Col>sahilrao6799@gmail.com</Col>
+                            </Row>
+                            <Row>
+                                <Col>Phase 4-309, Golden Park, Bangalore, India</Col>
+                            </Row>
+                        </Container>
+                    </Col>
                 </Row>
     </Container>
         </Layout>
