@@ -20,17 +20,16 @@ const Contact = () => {
                 <Row className="ContactCenterLayer">
                     <Col xl={{ order: 'first' }}>
                         <Container>
-                            <Row>
+                            <Row className="ReachOutToMe">
                                 <Col>Reach out to Me</Col>
                             </Row>
-                            <Row>
-                                <Col>Phone</Col>
+                            <Row className="Information">
                                 <Col>(+91) 9980883236</Col>
                             </Row>
-                            <Row>
+                            <Row className="Information">
                                 <Col>sahilrao6799@gmail.com</Col>
                             </Row>
-                            <Row>
+                            <Row className="Information">
                                 <Col>Phase 4-309, Golden Park, Bangalore, India</Col>
                             </Row>
                         </Container>

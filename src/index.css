@@ -18,3 +18,10 @@ code {
     url("./fonts/Gistesy.ttf") format("opentype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Roxborough CF";
+  src: local("Roxborough CF"),
+    url("./fonts/Roxborough\ CF.ttf") format("opentype");
+  font-weight: normal;
+}
